@@ -43,7 +43,7 @@ Each algorithm has a dedicated API endpoint that receives input in JSON format a
 
 ### 1. **Binary Search API**
 This API performs a binary search on a sorted array and returns the index of the searched element if found.
-- **Endpoint**: `/binary_search.php` eg.[(http://localhost:8080/learn/project/bs.php)]
+- **Endpoint**: `/binary_search.php` eg.[(http://localhost:8080/learn/project/bs1.php)]
 - **Method**: `POST`
 - **Request Body (JSON Format)**:
   ```json
@@ -64,7 +64,7 @@ This API performs a binary search on a sorted array and returns the index of the
 
 ### 2. **Quick Sort API**
 This API sorts an array using the Quick Sort algorithm and returns the sorted output.
-- **Endpoint**: `/quick_sort.php` eg.[(http://localhost:8080/learn/project/qs.php)]
+- **Endpoint**: `/quick_sort.php` eg.[(http://localhost:8080/learn/project/qs1.php)]
 - **Method**: `POST`
 - **Request Body (JSON Format)**:
   ```json
