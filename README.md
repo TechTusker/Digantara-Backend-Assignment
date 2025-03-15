@@ -26,10 +26,9 @@ To ensure proper logging of API requests, set up a MySQL database by following t
        algorithm VARCHAR(100),
        input VARCHAR(100),
        output VARCHAR(100),
-       timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
    );
    ```
-   This table will automatically record each API call, storing details about the algorithm used, input provided, output generated, and the timestamp of execution.
+   This table will automatically record each API call, storing details about the algorithm used, input provided, output generated, and the timestamp of execution. For convenience purpose I have provided db_algo.sql file for the setup of the table.
 
 ## Installation and Setup
 To set up the project locally, follow these steps:
